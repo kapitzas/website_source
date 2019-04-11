@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "PhD Candidate in Global Change Ecology"
+role = "PhD Candidate in Global Change Modelling"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Univesity of Melbourne", url = "" }, { name = "Quantitative & Applied Ecology Group", url = "" } ]
+organizations = [ { name = "Univesity of Melbourne", url = "" }, { name = "Quantitative & Applied Ecology Group", url = "https://qaeco.com" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -23,14 +23,20 @@ email = "simon.statecology@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Biodiversity",
-  "Model integration across disciplines",
-  "Socioeconomic drivers of change"
+  "Biodiversity change",
+  "Interdisciplinary model integration",
+  "Quantifying socioeconomic drivers of change"
 ]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups = ["Researchers", "Visitors"]
+
+# List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD Global Change Modelling, currently enrolled"
+  institution = "University of Melbourne"
+  year = ""
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -42,6 +48,11 @@ user_groups = ["Researchers", "Visitors"]
   course = "BSc Hon Environmental Science and Politics"
   institution = "University of Stirling"
   year = 2013
+  
+  [[education.courses]]
+  course = "Study abroad"
+  institution = "University of Sydney"
+  year = 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -72,8 +83,8 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I‘m a global change ecologist and currently doing my PhD at the Quantitative & Applied Ecology Group, a diverse and dynamic ecological modelling group at the University of Melbourne.
+I‘m a PhD Candidate at the Quantitative & Applied Ecology Group, a diverse and dynamic ecological modelling group at the University of Melbourne.
 
-My research focus is on developing methods for integrated assessments of biodiversity change to improve our ability to forecast the fate of biodiversity under future scenarios. I’m particularly interested in understanding the importance of socioeconomic drivers and on capturing the impacts of global transitions by coupling models across scientific disciplines.
+My research focus is on developing methods for interdisciplinary assessments of biodiversity change to improve our ability to forecast the fate of biodiversity under future scenarios. I’m particularly interested in understanding the importance of socioeconomic drivers and on capturing the impacts of global transitions by coupling models across scientific disciplines.
 
-Besides my research, I’m passionate about LGBTIQ+ issues and mental health awareness.
+Besides my research, I’m passionate about [LGBTIQ+ in STEM] (https://twitter.com/search?q=%23LGBTinSTEM) and mental health awareness.

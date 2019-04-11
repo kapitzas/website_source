@@ -1,5 +1,5 @@
 +++
-title = "WorldClimTiles"
+title = "Downloading and merging WorldClim tiles"
 date = 2019-03-26
 draft = false
 tags = ["R"]
