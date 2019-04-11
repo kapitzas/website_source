@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554965885306.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "94F28FF",
+    "lastKnownWriteTime" : 1554967815,
+    "last_content_update" : 1554969719281,
+    "path" : "~/OneDrive - The University of Melbourne/website/website_source/config/_default/config.toml",
+    "project_path" : "config/_default/config.toml",
+    "properties" : {
+        "cursorPosition" : "61,0",
+        "scrollLine" : "50"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

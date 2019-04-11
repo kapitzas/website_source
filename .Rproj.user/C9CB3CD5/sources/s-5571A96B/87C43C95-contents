@@ -1,0 +1,17 @@
+# Configuration of Academic
+# Documentation: https://sourcethemes.com/academic/
+languageCode = "en-aus"
+
+# The URL of your website.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://kapitzas.github.io/"
+publishDir = "../kapitzas.github.io"
+
+# Title of your site
+title = "Simon Kapitza"
+
+# Your copyright notice - appears in site footer.
+# To display a copyright symbol, type `&copy;`.
+copyright = "&copy; 2019"
+theme = "hugo-academic"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
