@@ -59,12 +59,6 @@ preserveTaxonomyNames = true
 	latexDashes = true
   extensions = ["backslashLineBreak"]
 
-[params]
-# Color theme.
-#   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-color_theme = "forest"
-
-
 [imaging]
   resampleFilter = "lanczos"
   quality = 90
