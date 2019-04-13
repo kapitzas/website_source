@@ -13,7 +13,7 @@ role = "PhD Candidate in Global Change Modelling"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Univesity of Melbourne", url = "" }, { name = "Quantitative & Applied Ecology Group", url = "https://qaeco.com" } ]
+organizations = [ { name = "University of Melbourne", url = "" }, { name = "Quantitative & Applied Ecology Group", url = "https://qaeco.com" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""

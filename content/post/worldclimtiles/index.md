@@ -2,11 +2,13 @@
 title = "Downloading and merging WorldClim tiles"
 date = 2019-03-26
 draft = false
-tags = ["R"]
+tags = ["R", "worldclim"]
 summary = "A handy package to download and merge tiled WorldClim and SRTM data"
+[image]
+preview_only = true
 +++
 
-I am regularly working with the WorldClim data set and in some cases had to download and merge the individual high res (0.5 arcmin) tiles for my work. To make things easier I made a little R package out of my workflow that does that really quickly and I will briefly discribe here with examples how it works. 
+I am regularly working with the WorldClim data set and in some cases had to download and merge the individual high res (0.5 arcmin) tiles for my work. To make things easier I made a little R package out of my workflow that does that really quickly and I will briefly discribe here with examples how it works. I've since also added support for 90m SRTM tiles that are also downloadable via the raster package, please refer to help files fore details.
 
 Download the package from GitHub:
 
@@ -39,9 +41,11 @@ Download the two tiles ("15", "16"). The default download path is the current wo
 #Download tiles
 tiles <- tile_get(tilenames, "bio")
 ```
-
+The downloaded tiles will look something like this if you plot them next to each other:
+![Example image](/img/plotting.png)
 Merge the downloaded tiles layer by layer. The function produces a raster stack that contains the merged layers with the correct variable names.
-
 ```
 merged <- tile_merge(tiles)
 ```
+Plotting the merged raster:
+![merged](/img/plotting2.png)

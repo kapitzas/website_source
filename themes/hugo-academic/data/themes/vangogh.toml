@@ -1,0 +1,21 @@
+# Theme metadata
+name = "vangogh"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#007849"
+primary_light = "#007849"
+primary_dark = "#DA2536"
+
+# Menu
+menu_primary = "#0375B4"
+menu_text = "#f4f4f4"
+menu_text_active = "#FFCE00"
+menu_title = "#f4f4f4"
+
+# Backgrounds
+background = "#f4f4f4"
+home_section_odd = "#f4f4f4"
+home_section_even = "#f4f4f4"
