@@ -1,0 +1,60 @@
+<footer class="site-footer">
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+      <a href="https://www.qaeco.com"><img src="/img/qaeco.png" alt="qaeco" style="width:70%"/></a>
+  </div>
+  <div class="column">
+    <a href="https://www.unimelb.edu.au"><img src="/img/uom.jpeg" alt="unimelb" style="width:70%"/></a>
+  </div>
+    <div class="column">
+    <a href=https://www.arc.gov.au><img src="/img/arc.jpg" alt="Forest" style="width:100%"/></a>
+  </div>
+</div>
+<br>
+  {{ with .Site.GetPage "privacy.md" }}
+  <p class="powered-by">
+    {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+  </p>
+  {{ end }}
+
+  <p class="powered-by">
+    {{ with .Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    {{ if ne .Type "docs" }}
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    {{ end }}
+  </p>
+</footer>
+
+
+
