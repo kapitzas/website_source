@@ -19,7 +19,7 @@ organizations = [ { name = "University of Melbourne", url = "" }, { name = "Quan
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "simon.statecology@gmail.com"
+email = "simon.kapitza.research@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
@@ -62,7 +62,7 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:simon.statecology@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:simon.kapitza.research@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "twitter"
