@@ -18,7 +18,7 @@ description = ""
 sharing_image = "si.jpg"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = "simonkapitza"
+twitter = "@simonecology"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -128,7 +128,7 @@ sharing = false
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "2006-01-02"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
